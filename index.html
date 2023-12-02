@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Merging Simulator</title>
+    <link rel="shortcut icon" href="Imgs/coin.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <!-- Draggable DIV -->
+<h2 id="cash">Cash: $1</h2>
+  <div class="shop">
+    <div id="item1">
+        <button class="itemb" onclick="buyCoin()">
+            <img src="Imgs/coin.png" class="items">
+            <p>Coin: $1</p>
+        </button>
+        <button class="itemb" onclick="buyStick()">
+            <img src="Imgs/stick.png" class="items">
+            <p>Stick: $10</p>
+        </button>
+        <button class="itemb" onclick="buyCopper()">
+            <img src="Imgs/copper.png" class="items">
+            <p>Copper Ingot: $100</p>
+        </button>
+        <button class="itemb" onclick="buyIron()">
+            <img src="Imgs/iron.png" class="items">
+            <p>Iron Ingot: $500</p>
+        </button>
+        <button class="itemb" onclick="buyGold()">
+            <img src="Imgs/gold.png" class="items">
+            <p>Gold Ingot: $1,000</p>
+        </button>
+        <button class="itemb" onclick="buyDiamond()">
+            <img src="Imgs/diamond.png" class="items">
+            <p>Diamond: $25,000</p>
+        </button>
+        <button class="itemb" onclick="buyRuby()">
+            <img src="Imgs/ruby.png" class="items">
+            <p>Ruby: $50,000</p>
+        </button>
+        <button class="itemb" onclick="buyOpal()">
+            <img src="Imgs/opal.png" class="items">
+            <p>Opal: $150,000</p>
+        </button>
+        <button class="itemb" onclick="buyMicrosoft()">
+            <img src="Imgs/microsoft.png" class="items">
+            <p>Microsoft: $500,000</p>
+        </button>
+        <button class="itemb" onclick="buyGoogle()">
+            <img src="Imgs/google.png" class="items">
+            <p>Google: $500,000</p>
+        </button>
+        <button class="itemb" onclick="buyTesla()">
+            <img src="Imgs/tesla.png" class="items">
+            <p>Tesla: $1,000,000</p>
+        </button>
+        <button class="itemb" onclick="buyRoblox()">
+            <img src="Imgs/roblox.png" class="items">
+            <p>Roblox: $2,000,000</p>
+        </button>
+        <button class="itemb" onclick="buySpacex()">
+            <img src="Imgs/spacex.jpg" class="items">
+            <p>Space x: $10,000,000</p>
+        </button>
+        <button class="itemb" onclick="buyNasa()">
+            <img src="Imgs/nasa.png" class="items">
+            <p>Nasa: $100,000,000</p>
+        </button>
+        <button class="itemb" onclick="buyYoutube()">
+            <img src="Imgs/youtube.png" class="items">
+            <p>Youtube: $1,000,000,000</p>
+        </button>
+    </div>
+  </div>
+    <script src='drag.js'></script>
+    <script src="script.js"></script>
+    <script src="bin.js"></script>
+</body>
+</html>
